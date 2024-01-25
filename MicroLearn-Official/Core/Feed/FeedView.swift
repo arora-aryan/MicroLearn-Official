@@ -58,3 +58,5 @@ struct FeedView: View {
 #Preview {
     FeedView(course: sampleCourse, videoID: firstVideoID)
 }
+
+//just checking to see if github is working
