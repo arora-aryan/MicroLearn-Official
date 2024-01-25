@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7C0CD9C2B631E6400A42F7D /* MicroLearn_OfficialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CD9B2B631E6400A42F7D /* MicroLearn_OfficialApp.swift */; };
+		B7C0CDA02B631E6600A42F7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C0CD9F2B631E6600A42F7D /* Assets.xcassets */; };
+		B7C0CDA32B631E6600A42F7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C0CDA22B631E6600A42F7D /* Preview Assets.xcassets */; };
+		B7C0CDB62B631F4E00A42F7D /* SendStringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDB52B631F4E00A42F7D /* SendStringTest.swift */; };
+		B7C0CDB82B631F6700A42F7D /* UserSignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDB72B631F6700A42F7D /* UserSignupService.swift */; };
+		B7C0CDBA2B631F7000A42F7D /* UserLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDB92B631F7000A42F7D /* UserLoginService.swift */; };
+		B7C0CDBC2B631F9000A42F7D /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDBB2B631F9000A42F7D /* SampleData.swift */; };
+		B7C0CDBE2B631FA100A42F7D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDBD2B631FA100A42F7D /* Utilities.swift */; };
+		B7C0CDC02B631FAD00A42F7D /* Initializations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDBF2B631FAD00A42F7D /* Initializations.swift */; };
+		B7C0CDC22B631FB500A42F7D /* CourseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDC12B631FB500A42F7D /* CourseData.swift */; };
+		B7C0CDCA2B63203000A42F7D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDC92B63203000A42F7D /* SettingsView.swift */; };
+		B7C0CDCC2B63204500A42F7D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDCB2B63204500A42F7D /* SignUpView.swift */; };
+		B7C0CDCF2B63205B00A42F7D /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDCE2B63205B00A42F7D /* EditProfileView.swift */; };
+		B7C0CDD22B63209100A42F7D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDD12B63209100A42F7D /* LoginView.swift */; };
+		B7C0CDD52B6320A700A42F7D /* ModulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDD42B6320A700A42F7D /* ModulesView.swift */; };
+		B7C0CDDA2B6320CE00A42F7D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDD92B6320CE00A42F7D /* MainTabView.swift */; };
+		B7C0CDDD2B63211000A42F7D /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDDC2B63211000A42F7D /* CoursesView.swift */; };
+		B7C0CDDF2B63211900A42F7D /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDDE2B63211900A42F7D /* CourseCell.swift */; };
+		B7C0CDE32B63214900A42F7D /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDE22B63214900A42F7D /* UserStatView.swift */; };
+		B7C0CDE52B63215700A42F7D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDE42B63215700A42F7D /* ProfileView.swift */; };
+		B7C0CDE72B63216700A42F7D /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDE62B63216700A42F7D /* ProfileHeaderView.swift */; };
+		B7C0CDEA2B63218F00A42F7D /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDE92B63218F00A42F7D /* CustomVideoPlayer.swift */; };
+		B7C0CDEC2B63219E00A42F7D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDEB2B63219E00A42F7D /* FeedCell.swift */; };
+		B7C0CDEE2B6321AC00A42F7D /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C0CDED2B6321AC00A42F7D /* FeedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7C0CD982B631E6400A42F7D /* MicroLearn-Official.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MicroLearn-Official.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C0CD9B2B631E6400A42F7D /* MicroLearn_OfficialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroLearn_OfficialApp.swift; sourceTree = "<group>"; };
+		B7C0CD9F2B631E6600A42F7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7C0CDA22B631E6600A42F7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7C0CDB52B631F4E00A42F7D /* SendStringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendStringTest.swift; sourceTree = "<group>"; };
+		B7C0CDB72B631F6700A42F7D /* UserSignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignupService.swift; sourceTree = "<group>"; };
+		B7C0CDB92B631F7000A42F7D /* UserLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginService.swift; sourceTree = "<group>"; };
+		B7C0CDBB2B631F9000A42F7D /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		B7C0CDBD2B631FA100A42F7D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B7C0CDBF2B631FAD00A42F7D /* Initializations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializations.swift; sourceTree = "<group>"; };
+		B7C0CDC12B631FB500A42F7D /* CourseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseData.swift; sourceTree = "<group>"; };
+		B7C0CDC92B63203000A42F7D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B7C0CDCB2B63204500A42F7D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B7C0CDCE2B63205B00A42F7D /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		B7C0CDD12B63209100A42F7D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B7C0CDD42B6320A700A42F7D /* ModulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesView.swift; sourceTree = "<group>"; };
+		B7C0CDD92B6320CE00A42F7D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B7C0CDDC2B63211000A42F7D /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
+		B7C0CDDE2B63211900A42F7D /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		B7C0CDE22B63214900A42F7D /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		B7C0CDE42B63215700A42F7D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B7C0CDE62B63216700A42F7D /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		B7C0CDE92B63218F00A42F7D /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		B7C0CDEB2B63219E00A42F7D /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		B7C0CDED2B6321AC00A42F7D /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7C0CD952B631E6400A42F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7C0CD8F2B631E6400A42F7D = {
+			isa = PBXGroup;
+			children = (
+				B7C0CD9A2B631E6400A42F7D /* MicroLearn-Official */,
+				B7C0CD992B631E6400A42F7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7C0CD992B631E6400A42F7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CD982B631E6400A42F7D /* MicroLearn-Official.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7C0CD9A2B631E6400A42F7D /* MicroLearn-Official */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDB42B631EEE00A42F7D /* App */,
+				B7C0CDB22B631EE400A42F7D /* Core */,
+				B7C0CDB12B631EDB00A42F7D /* Extensions */,
+				B7C0CDB02B631ED600A42F7D /* Model */,
+				B7C0CDAB2B631EAD00A42F7D /* Services */,
+				B7C0CDAA2B631EA600A42F7D /* Utils */,
+				B7C0CDA92B631E8B00A42F7D /* APIRequests */,
+				B7C0CD9F2B631E6600A42F7D /* Assets.xcassets */,
+				B7C0CDA12B631E6600A42F7D /* Preview Content */,
+			);
+			path = "MicroLearn-Official";
+			sourceTree = "<group>";
+		};
+		B7C0CDA12B631E6600A42F7D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDA22B631E6600A42F7D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7C0CDA92B631E8B00A42F7D /* APIRequests */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDB52B631F4E00A42F7D /* SendStringTest.swift */,
+				B7C0CDB72B631F6700A42F7D /* UserSignupService.swift */,
+				B7C0CDB92B631F7000A42F7D /* UserLoginService.swift */,
+			);
+			path = APIRequests;
+			sourceTree = "<group>";
+		};
+		B7C0CDAA2B631EA600A42F7D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDBB2B631F9000A42F7D /* SampleData.swift */,
+				B7C0CDBD2B631FA100A42F7D /* Utilities.swift */,
+				B7C0CDBF2B631FAD00A42F7D /* Initializations.swift */,
+				B7C0CDC12B631FB500A42F7D /* CourseData.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B7C0CDAB2B631EAD00A42F7D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B7C0CDB02B631ED600A42F7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7C0CDB12B631EDB00A42F7D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B7C0CDB22B631EE400A42F7D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDE82B63218100A42F7D /* Feed */,
+				B7C0CDE02B63212C00A42F7D /* Profile */,
+				B7C0CDDB2B63210100A42F7D /* Search */,
+				B7C0CDD62B6320B300A42F7D /* TabBar */,
+				B7C0CDD32B63209A00A42F7D /* Modules */,
+				B7C0CDD02B63207600A42F7D /* Login */,
+				B7C0CDCD2B63204B00A42F7D /* EditProfile */,
+				B7C0CDC62B631FFA00A42F7D /* SignUp */,
+				B7C0CDC32B631FE600A42F7D /* Settings */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B7C0CDB42B631EEE00A42F7D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CD9B2B631E6400A42F7D /* MicroLearn_OfficialApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B7C0CDC32B631FE600A42F7D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDC92B63203000A42F7D /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B7C0CDC62B631FFA00A42F7D /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDCB2B63204500A42F7D /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		B7C0CDCD2B63204B00A42F7D /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDCE2B63205B00A42F7D /* EditProfileView.swift */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		B7C0CDD02B63207600A42F7D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDD12B63209100A42F7D /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B7C0CDD32B63209A00A42F7D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDD42B6320A700A42F7D /* ModulesView.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B7C0CDD62B6320B300A42F7D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDD92B6320CE00A42F7D /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		B7C0CDDB2B63210100A42F7D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDDC2B63211000A42F7D /* CoursesView.swift */,
+				B7C0CDDE2B63211900A42F7D /* CourseCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B7C0CDE02B63212C00A42F7D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDE12B63212F00A42F7D /* Components */,
+				B7C0CDE42B63215700A42F7D /* ProfileView.swift */,
+				B7C0CDE62B63216700A42F7D /* ProfileHeaderView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B7C0CDE12B63212F00A42F7D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDE22B63214900A42F7D /* UserStatView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B7C0CDE82B63218100A42F7D /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				B7C0CDE92B63218F00A42F7D /* CustomVideoPlayer.swift */,
+				B7C0CDEB2B63219E00A42F7D /* FeedCell.swift */,
+				B7C0CDED2B6321AC00A42F7D /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7C0CD972B631E6400A42F7D /* MicroLearn-Official */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C0CDA62B631E6600A42F7D /* Build configuration list for PBXNativeTarget "MicroLearn-Official" */;
+			buildPhases = (
+				B7C0CD942B631E6400A42F7D /* Sources */,
+				B7C0CD952B631E6400A42F7D /* Frameworks */,
+				B7C0CD962B631E6400A42F7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MicroLearn-Official";
+			productName = "MicroLearn-Official";
+			productReference = B7C0CD982B631E6400A42F7D /* MicroLearn-Official.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7C0CD902B631E6400A42F7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					B7C0CD972B631E6400A42F7D = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = B7C0CD932B631E6400A42F7D /* Build configuration list for PBXProject "MicroLearn-Official" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7C0CD8F2B631E6400A42F7D;
+			productRefGroup = B7C0CD992B631E6400A42F7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7C0CD972B631E6400A42F7D /* MicroLearn-Official */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7C0CD962B631E6400A42F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C0CDA32B631E6600A42F7D /* Preview Assets.xcassets in Resources */,
+				B7C0CDA02B631E6600A42F7D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7C0CD942B631E6400A42F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C0CDBE2B631FA100A42F7D /* Utilities.swift in Sources */,
+				B7C0CDB62B631F4E00A42F7D /* SendStringTest.swift in Sources */,
+				B7C0CDC02B631FAD00A42F7D /* Initializations.swift in Sources */,
+				B7C0CDCF2B63205B00A42F7D /* EditProfileView.swift in Sources */,
+				B7C0CDCA2B63203000A42F7D /* SettingsView.swift in Sources */,
+				B7C0CDB82B631F6700A42F7D /* UserSignupService.swift in Sources */,
+				B7C0CDEE2B6321AC00A42F7D /* FeedView.swift in Sources */,
+				B7C0CDD22B63209100A42F7D /* LoginView.swift in Sources */,
+				B7C0CDBA2B631F7000A42F7D /* UserLoginService.swift in Sources */,
+				B7C0CDCC2B63204500A42F7D /* SignUpView.swift in Sources */,
+				B7C0CDEA2B63218F00A42F7D /* CustomVideoPlayer.swift in Sources */,
+				B7C0CDE32B63214900A42F7D /* UserStatView.swift in Sources */,
+				B7C0CDE72B63216700A42F7D /* ProfileHeaderView.swift in Sources */,
+				B7C0CDE52B63215700A42F7D /* ProfileView.swift in Sources */,
+				B7C0CDD52B6320A700A42F7D /* ModulesView.swift in Sources */,
+				B7C0CDEC2B63219E00A42F7D /* FeedCell.swift in Sources */,
+				B7C0CDBC2B631F9000A42F7D /* SampleData.swift in Sources */,
+				B7C0CDDD2B63211000A42F7D /* CoursesView.swift in Sources */,
+				B7C0CDDF2B63211900A42F7D /* CourseCell.swift in Sources */,
+				B7C0CDDA2B6320CE00A42F7D /* MainTabView.swift in Sources */,
+				B7C0CDC22B631FB500A42F7D /* CourseData.swift in Sources */,
+				B7C0CD9C2B631E6400A42F7D /* MicroLearn_OfficialApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7C0CDA42B631E6600A42F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7C0CDA52B631E6600A42F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7C0CDA72B631E6600A42F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MicroLearn-Official/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ML.MicroLearn-Official";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7C0CDA82B631E6600A42F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MicroLearn-Official/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ML.MicroLearn-Official";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7C0CD932B631E6400A42F7D /* Build configuration list for PBXProject "MicroLearn-Official" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C0CDA42B631E6600A42F7D /* Debug */,
+				B7C0CDA52B631E6600A42F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C0CDA62B631E6600A42F7D /* Build configuration list for PBXNativeTarget "MicroLearn-Official" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C0CDA72B631E6600A42F7D /* Debug */,
+				B7C0CDA82B631E6600A42F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7C0CD902B631E6400A42F7D /* Project object */;
+}
