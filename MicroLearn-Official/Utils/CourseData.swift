@@ -88,16 +88,19 @@ let courses = [
                 title: "Guitar Basics",
                 description: "Getting Started with Guitar",
                 videos: [
-                    Video(title: "Choosing Your Guitar", content: "Acoustic vs Electric Guitars.", url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"),
-                    Video(title: "Basic Guitar Tuning", content: "How to tune your guitar.", url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4")
+                    Video(title: "Introduction to Guitar", content: "What will be covered in this course?", url: "https://dl.dropboxusercontent.com/scl/fi/k7kg49xxjamy3xd8ugmel/Snaptik.app_7233577258269855022.MOV?rlkey=yjkzullca8p6ymj6i2kjjj2in&dl=1"),
+                    Video(title: "Basic Guitar Terminology", content: "Parts of the guitar and relevant vocabulary", url: "https://dl.dropboxusercontent.com/scl/fi/xrscu6hbtf6pdcfilqgjj/Snaptik.app_7233577258269855022-2.MOV?rlkey=nrvzig0xaad5nhwrtfkuw0hc3&dl=1"),
+                    Video(title: "How to Hold the Guitar", content: "How to hold a guitar for right and left handed folks", url: "https://dl.dropboxusercontent.com/scl/fi/3k96yc840bhhmrr8x7ozf/Snaptik.app_7233577258269855022-3.mov?rlkey=mjr9ddrbah582pgcf5zvnm03k&dl=0")
+                    
                 ]
             ),
             Module(
                 title: "Playing Chords",
-                description: "Chord Progressions and Techniques",
+                description: "Tuning, Chord Progressions, and Techniques",
                 videos: [
-                    Video(title: "Understanding Chords", content: "Major and minor chord structures.", url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"),
-                    Video(title: "Chord Transition Techniques", content: "Smooth transitions between chords.", url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4")
+                    Video(title: "Tuning Your Guitar", content: "Using a tuner to tune your guitar", url: "https://dl.dropboxusercontent.com/scl/fi/vpj0akpsgvu8idrokts4t/Snaptik.app_7233577258269855022-5.MOV?rlkey=7wqnbax0cf4uqaa4rszsqgnx7&dl=1"),
+                    Video(title: "Strumming", content: "Learn the basics of strumming the strings of a guitar", url: "https://dl.dropboxusercontent.com/scl/fi/c839tkepma4w2941jdff4/Snaptik.app_7233577258269855022-7.MOV?rlkey=fjlwtj6sqkkdpk3yof16nzhyc&dl=1"),
+                    Video(title: "Your First Strumming Pattern", content: "Follow along to these basic strum patterns", url: "https://dl.dropboxusercontent.com/scl/fi/bjlboaoyrg0x2fga69ng8/Snaptik.app_7233577258269855022-6.MOV?rlkey=90i5pwze76uisjkk36vox8tfg&dl=1")
                 ]
             )
         ],
