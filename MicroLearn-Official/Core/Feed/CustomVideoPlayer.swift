@@ -25,6 +25,6 @@ struct CustomVideoPlayer: UIViewControllerRepresentable {
     func updateUIViewController(_ uiViewController: AVPlayerViewController, context: Context) {
         // Automatically start playing the video
        
-        //uiViewController.player?.play()
+        uiViewController.player?.play()
     }
 }

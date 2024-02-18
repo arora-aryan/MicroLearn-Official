@@ -25,7 +25,8 @@ struct MicroLearn_OfficialApp: App {
                 if isUserLoggedIn {
                     MainTabView()
                 } else {
-                    LoginView(isUserLoggedIn: $isUserLoggedIn)
+                    //LoginView(isUserLoggedIn: $isUserLoggedIn)
+                    MainTabView()
                 }
             }
         }
